@@ -1,0 +1,19 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+body {
+  background: #1a202c;
+}
+
+.hover\:bg-gray-700.activeItem {
+  background-color: #4a5568;
+}
+
+.slick-slider .slick-active a.activeItem,
+.slick-slider .slick-active img.activeItem {
+    opacity: 1;
+    transform: scale(1.05);
+}
